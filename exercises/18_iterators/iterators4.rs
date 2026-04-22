@@ -3,6 +3,7 @@ fn factorial(num: u64) -> u64 {
     // defined as `1 * 2 * 3 * … * num`.
     // https://en.wikipedia.org/wiki/Factorial
     //
+    (1..=num).product()
     // Do not use:
     // - early returns (using the `return` keyword explicitly)
     // Try not to use:
